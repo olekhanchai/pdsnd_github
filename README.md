@@ -17,3 +17,7 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ### Initial Bikeshare
 Add bikeshare.py and datafiles into project. Also update .gitignore file.
+
+### Add description of cities. 
+Add commentation of cities can be add more.
+
