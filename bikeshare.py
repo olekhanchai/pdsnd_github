@@ -52,14 +52,8 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    if (city == '1'):
-        city = 'chicago'
-    elif (city == '2'):
-        city = 'new york city'
-    elif (city == '3'):
-        city = 'washington'
             
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(list(CITY_DATA.values())[int(city)-1])
     
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     
