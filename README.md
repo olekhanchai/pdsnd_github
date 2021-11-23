@@ -1,23 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bike Share #
+This project used for analyze information of bike usaged of each cities up to provided data.
 
-### Date created
-Include the date you created this project and README file.
+## How to use Bike Share? ##
+Bikeshare is python software that used panda and numpy for calculate date of each cities. 
+you need library and cities information files in the list:
 
-### Project Title
-Replace the Project Title
+* Panda library for python
+* Numpy library for python
+* Some of cities data file such as 'chicago.csv', 'new_york_city.csv', 'washington.csv' 
+* data file should have information of Start Time,End Time,Trip Duration,Start Station,End Station,User Type,Gender(optional),Birth Year(optional)
 
-### Description
-Describe what your project is about and what it does
+## Usage ##
+After place citie files into the same of 'bikeshare.py'. This project can be run with python just 
+type 'python bikeshare.py' on your command line for process cities data that you place with python file.
 
-### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-### Initial Bikeshare
-Add bikeshare.py and datafiles into project. Also update .gitignore file.
-
-### Add description of cities. 
-Add commentation of cities can be add more.
+## Credits ##
+Bikeshare project was forked from https://github.com/udacity/pdsnd_github for learning data science with python usage panda and numpy library. 
 
